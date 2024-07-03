@@ -1,0 +1,39 @@
+.contact_item {
+  display: flex;
+  border: 1px solid white;
+  padding: 15px;
+  min-width: 350px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.contact_item:hover {
+  border-color: rgba(194, 64, 234, 0.5);
+  box-shadow: 0 0 20px 3px rgba(194, 64, 234, 0.5);
+}
+p {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.name {
+  background: -webkit-linear-gradient(rgb(194, 64, 234), rgba(48, 238, 226, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.delete_btn {
+  background: -webkit-linear-gradient(rgb(194, 64, 234), rgba(48, 238, 226, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50em;
+}
+.delete_btn:hover {
+  border-color: rgba(228, 28, 185, 0.5);
+  box-shadow: 0 0 20px 3px rgba(228, 28, 185, 0.5);
+}
